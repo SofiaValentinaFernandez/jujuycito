@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;900&display=swap');
+
+.galeria img{
+    width: 240px;
+    height: 150px;
+    margin: 4px;
+
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.card-bod{
+    padding: 1em;
+}
+
+.btn{
+    display: grid;
+    justify-content: end;
+    margin: 10px;
+
+}
+
+.autores li:hover{
+    background-color: lightcyan;
+}
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/public/style/index.css">
+
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666034184/jujuycito/Polish_20221017_102814605_xvrw6l.ico"
+        type="image/x-icon">
+    <title>JUJUYcito</title>
+    
+</head>
+
+<body>
+    <%- include('partial/_header.ejs') -%>
+
+        <div class="container">
+            <h2>¿Cómo es la Economía en Jujuy?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex id dolorum, aliquam dolorem soluta, veniam
+                vero enim veritatis consequuntur minus fugiat? Quae modi voluptatibus quaerat eligendi? Magnam eaque
+                corrupti sit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis sunt tempora expedita cumque
+                architecto doloribus cupiditate! Voluptas, nesciunt ratione iste, perferendis nemo deserunt esse dolor
+                ex eum perspiciatis facilis et!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed fugit recusandae minus aut
+                commodi quas labore quisquam impedit nulla suscipit amet, quis dicta ipsum repellendus, harum officiis
+                quos quod.
+            </p>
+            <h4>Empresas Jujueñas</h4>
+
+            <div class="galeria">
+                <img src="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666124041/jujuycito/download_jwizn5.png" alt="...">
+                <img src="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666124130/jujuycito/download_ed8bya.jpg" alt="">
+                <h6>Grupo Ledesma </h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ratione, voluptate consectetur
+                    necessitatibus est, sit aliquam, exercitationem ducimus tempore voluptatem deleniti repellendus
+                    ipsa. Nostrum, veritatis delectus incidunt quam quia quis? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Quam necessitatibus, inventore quibusdam aut distinctio molestiae commodi dicta
+                    hic, cumque sit quae corrupti perferendis voluptatum quidem placeat quo totam quasi debitis.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, error cupiditate! Sunt quis,
+                    quaerat unde corporis magni eos deserunt in cum, blanditiis assumenda autem veritatis commodi
+                    laborum? Eligendi, ea officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                    harum possimus sit corporis voluptatem soluta, ipsam accusamus nesciunt? Aperiam dolore quaerat
+                    minima ullam molestias consequuntur illo saepe earum dicta molestiae.
+                </p>
+
+                <br>
+                <hr>
+                <br>
+
+                <img src="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666124267/jujuycito/download_vcrtsr.jpg" alt="...">
+                <img src="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666124282/jujuycito/download_tcusic.jpg" alt="">
+                <h6>Bodega Fernando Dupont </h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ratione, voluptate consectetur
+                    necessitatibus est, sit aliquam, exercitationem ducimus tempore voluptatem deleniti repellendus
+                    ipsa. Nostrum, veritatis delectus incidunt quam quia quis? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Quam necessitatibus, inventore quibusdam aut distinctio molestiae commodi dicta
+                    hic, cumque sit quae corrupti perferendis voluptatum quidem placeat quo totam quasi debitis.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, error cupiditate! Sunt quis,
+                    quaerat unde corporis magni eos deserunt in cum, blanditiis assumenda autem veritatis commodi
+                    laborum? Eligendi, ea officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                    harum possimus sit corporis voluptatem soluta, ipsam accusamus nesciunt? Aperiam dolore quaerat
+                    minima ullam molestias consequuntur illo saepe earum dicta molestiae.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- BOTONES VOLVER Y SIGUIENTE -->
+        <div>
+            <button class="btn btn-light" onclick="history.back()"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg> Volver </button>
+            <button class="btn btn-dark" onclick="history.forward()"> Siguiente <svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg></button>
+        </div>
+        <%- include('partial/_footer.ejs') -%>
+</body>
+
+</html>

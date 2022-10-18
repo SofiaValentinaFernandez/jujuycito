@@ -1,0 +1,33 @@
+footer{
+    border-top: 1px solid #e51563;
+    background-color: #ffe8f0 ;
+    height: 45px;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;   
+
+    margin-top: 50px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50%;
+    padding-right: 50%; */
+
+    display: flex;
+    justify-content: center;   
+
+    margin-top: 50px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+.footercito{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 300px;
+    grid-template-rows: 120px;
+    color: #e51563;
+}

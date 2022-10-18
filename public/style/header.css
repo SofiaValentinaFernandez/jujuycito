@@ -1,0 +1,91 @@
+
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 100%;
+    margin-bottom: 20px;
+
+    position: sticky;
+    top: 0;
+}
+
+.nav-logo{
+    height: 45px;
+    width: 120px;
+    margin-top: 0;
+
+}
+
+/*button -> INICIO*/
+.inicio:hover{
+    background-color: #059687;
+    border-radius: 10px;
+    padding: 2px;
+}
+.inicio:active{
+    background-color: #b1fff7;
+    border-radius: 10px;
+}
+
+/*button -> HISTORIA*/
+.historia:hover{
+    background-color: #E51563;
+    border-radius: 10px;
+    padding: 2px;
+}
+.historia:active{
+    background-color: #ffb9d3;
+    border-radius: 10px;
+}
+
+/*button -> GASTRONOMIA*/
+.gastronomia:hover{
+    background-color: #F3692B;
+    border-radius: 10px;
+    padding: 2px;
+}
+.gastronomia:active{
+    background-color: #ffd1bc;
+    border-radius: 10px;
+}
+
+/*button -> TURISMO*/
+.turismo:hover{
+    background-color: #AEC22F;
+    border-radius: 10px;
+    padding: 2px;
+}
+.turismo:active{
+    background-color: #f3ffa4;
+    border-radius: 10px;
+}
+
+/*button -> ECONOMIA*/
+.economia:hover{
+    background-color: #06653D;
+    border-radius: 10px;
+    padding: 2px;
+}
+.economia:active{
+    background-color: #5fffbc;
+    border-radius: 10px;
+}
+
+/*button -> MUSICA*/
+.musica:hover{
+    background-color: rgb(143, 143, 143);
+    border-radius: 10px;
+    padding: 2px;
+}
+.about:active{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+/*button -> INICIO*/
+.nav-link:hover{
+    color: white;
+}
+
+
+

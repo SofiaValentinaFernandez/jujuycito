@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/public/style/index.css">
+
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666034184/jujuycito/Polish_20221017_102814605_xvrw6l.ico"
+        type="image/x-icon">
+
+
+    <title>JUJUYcito</title>
+</head>
+
+<body>
+    <%- include('partial/_header.ejs') -%>
+    <div class="container">
+        <div class="autores">
+            <h1>Cantautores Jujeños</h1>
+            <ul>
+                <li>Tomás Lipán</li>
+                <li>Ricardo Vilca</li>
+                <li>Jorge Cafrune</li>
+                <li>Bruno Arias</li> <!-- -->
+                <li>Julio Cabrera</li>
+            </ul>
+        </div>
+
+        <div class="canciones">
+            <h1> Canciones inspiradas en Jujuy</h1> <br><br>
+            <div> <h3>"Jujeñito" - Mónica Pantoja</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/f4sMwFtP28M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> <br><br>
+            <div> <h3>"Jujuy mujer" - Tomás Lipán</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WWZzT_SoDyI?start=83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div> <br><br>
+            <div> <h3>"Me gusta Jujuy cuando llueve" - Copleros</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hAf_qLCuGjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div><br><br>
+            <div><h3>"A Jujuy siempre se vuelve" - Jorge Cafrune</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0P6OI-f6PNM?start=83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br><br><br>
+
+            <h1> Otras Canciones</h1> <br>
+            <div><h3>"La llama que Baila" - La Cantada</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CbOTGeV6J4E?start=83" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+        </div>
+        
+        
+
+    </div>
+
+    <!-- BOTONES VOLVER Y SIGUIENTE -->
+        <div>
+            <button class="btn btn-light" onclick="history.back()"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg> Volver </button>
+            <button class="btn btn-dark" onclick="history.forward()"> Siguiente <svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg></button>
+        </div>
+
+
+
+
+
+
+
+
+        <%- include('partial/_footer.ejs') -%>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<div class="mb-3">
+    <label for="title" class="form-label">Título: </label>
+    <input type="text" class="form-control" name="title" id="title" placeholder="Titulo" ><%=article.title%>
+</div>
+
+<div class="mb-3">
+    <label for="description" class="form-label">Descripción: </label>
+    <textarea required class="form-control" name="description" id="description" rows="3" placeholder="Escriba su artículo." ><%= article.description %></textarea>
+</div>
+
+<div class="mb-3">
+    <label for="markdown" class="form-label">Resumen: </label>
+    <textarea required class="form-control" name="markdown" id="markdown" rows="3" placeholder="Escriba un breve resumen de su artículo." ><%= article.description %></textarea>
+</div>
+
+<br>
+
+<a href="/" class="btn btn-danger" title="cancelar"> Cancelar </a>
+<button type="submit" class="btn btn-success" title="guardar"> Guardar </button>
+
+
+
+

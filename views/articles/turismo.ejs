@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/public/style/index.css">
+    <link rel="stylesheet" href="/public/style/turismo.css">
+
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666034184/jujuycito/Polish_20221017_102814605_xvrw6l.ico"
+        type="image/x-icon">
+
+    <script>
+        function vermas(id) {
+            if (id == "mas") {
+                document.getElementById("desplegar").style.display = "block";
+                document.getElementById("mas").style.display = "none";
+            }
+            else {
+                document.getElementById("desplegar").style.display = "none";
+                document.getElementById("mas").style.display = "inline";
+            }
+        }
+    </script>
+
+
+    <title>JUJUYcito</title </head>
+
+<body>
+    <%- include('partial/_header.ejs') -%>
+
+        <div class="container">
+
+            <div class="card" style="width: 30%;">
+                <img src="https://res.cloudinary.com/dn5jz41ng/image/upload/v1666042576/jujuycito/4_yygrem.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="parrafo"></div>
+
+                    <h2>Parque Nacional Calilegua</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod soluta repellat delectus excepturi
+                        quos deserunt quis sed, voluptatem velit officia ipsam quia fugiat assumenda repudiandae harum
+                        quaerat eos quibusdam necessitatibus.
+                        <a href="#" id="mas" onclick="vermas('mas')">...[leer más]</a>
+                    </p>
+                    <p id="desplegar" style="display:none;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus porro totam molestias ad
+                        accusamus aliquid enim adipisci eaque doloremque aliquam vitae fugit voluptatem sequi earum
+                        voluptas, quas veritatis dicta! Temporibus.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quasi nostrum vero excepturi,
+                        labore
+                        voluptatibus? Soluta distinctio, unde repellat perspiciatis laborum, consectetur dolores
+                        accusamus
+                        voluptatum labore repellendus nihil, numquam iste.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, velit quod voluptatem, eligendi
+                        et hic pariatur itaque fugiat eos tenetur quo corrupti quas laudantium laboriosam inventore
+                        provident fugit. Officia, hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                        quo
+                        quia perferendis quas ea sunt corporis laboriosam tenetur rerum, officiis facilis voluptas illo
+                        minima earum dolore odit quaerat. Soluta, iusto! Lorem ipsum dolor, sit amet consectetur
+                        adipisicing
+                        elit. Enim placeat quod voluptates itaque reprehenderit exercitationem aliquam sapiente ipsam
+                        incidunt reiciendis libero quasi, illum necessitatibus atque veritatis ipsum laboriosam? Sed,
+                        minima? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam debitis nam
+                        earum
+                        aliquam accusantium cupiditate temporibus quam labore autem vero nulla et iure delectus,
+                        explicabo
+                        saepe recusandae, nisi consequuntur?
+                        <a href="#" onclick="vermas('menos');">...[leer menos]</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--<script>
+
+
+            // function vermas(id) {
+            //     if (id == "mas") {
+            //         document.getElementById("desplegar").style.display = "block";
+            //         document.getElementById("mas").style.display = "none";
+            //     }
+            //     else {
+            //         document.getElementById("desplegar").style.display = "none";
+            //         document.getElementById("mas").style.display = "inline";
+            //     }
+            // }
+
+
+        </script>-->
+
+        <!-- // function vermas() {
+        // let eldiv = document.getElementById("vermasdiv");
+        // eldiv.style.display = "block";
+        // }
+
+
+        // // const articulo = document.querySelector("#contenido");
+        // // const button = document.querySelector("#leer-mas")
+
+        // // button.addEventListener("click", leerMas)
+
+        // // function leerMas(){
+        // if(articulo.className === "open"){
+        // //leer menos
+        // articulo.className = "";
+        // button.textContent = " + "
+        // } else {
+        // //leer mas
+        // articulo.className = "open";
+        // button.textContent = " - "
+        // }
+        // } -->
+
+
+
+
+
+        <!-- BOTONES VOLVER Y SIGUIENTE -->
+        <div>
+            <button class="btn btn-light" onclick="history.back()"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                </svg> Volver </button>
+            <button class="btn btn-dark" onclick="history.forward()"> Siguiente <svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg></button>
+        </div>
+
+        <%- include('partial/_footer.ejs') -%>
+</body>
+
+</html>
